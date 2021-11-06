@@ -4,6 +4,7 @@ h2 {
 
 }
 .instructions p{
+    display: block;
     text-align: center;
 }
 
