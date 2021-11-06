@@ -6,3 +6,11 @@ h2 {
 .instructions p{
     text-align: center;
 }
+
+.question1  {
+    display: none;
+}
+
+h3 {
+    text-align: right;
+}
