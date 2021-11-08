@@ -3,12 +3,21 @@ h2 {
     text-align: center;
 
 }
-.instructions p{
+
+.show{
     display: block;
+}
+.start-menu{
+    
     text-align: center;
+    color: red;
 }
 
-.question1  {
+.question{
+    text-align: center;
+    color: blue;
+}
+.hidden{
     display: none;
 }
 

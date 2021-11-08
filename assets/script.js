@@ -1,5 +1,6 @@
-var instructions =document.querySelector ("#instructions")
-var question1El = document.querySelector("#question1");
+//var instructionsEl =document.querySelector ("#start-menu")
+//var question1El = document.querySelector("#question1");
+//var wrongAnswerQ1= document.querySelector ("#1A","#1B","1D");
 
 const buttonEl=document.querySelector("#start");
     // ON CLICK TIMER START
@@ -15,13 +16,16 @@ const buttonEl=document.querySelector("#start");
     timeleft -= 1;
   }, 1000);
     //ON CLICK DISPLAY REPLACE INSTRUCTION WITH QUESTION ONE
-    if (instructions== 'block'){
-      instructions.style.display ="none"
+    document.querySelector('#question1').classList.remove('hidden');
+    document.getElementById('#instructions').classList.remove('start-menu')
     }
+
+
+  
     
     var question1El
 
-    }
+    
 
     
 
