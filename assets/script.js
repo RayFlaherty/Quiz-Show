@@ -20,11 +20,35 @@ const startbtn=document.querySelector("#start");
   const q1RightAnswer=document.getElementById("1C");
     //question one right answer
     q1RightAnswer.onclick = () =>{ 
+        document.querySelector('#question1').classList.toggle('hidden');
+        document.querySelector('#question2').classList.remove('hidden');
+        document.querySelector('#true').classList.remove('hidden')
+        };
+      
+    };
+  
+    const q1WrontAnswer=document.getElementById("1A");
+      //question one wrong answer
+      q1WrontAnswer.onclick = () =>{
       document.querySelector('#question1').classList.toggle('hidden');
       document.querySelector('#question2').classList.remove('hidden');
-      document.getElementById('true').classList.toggle('hidden')
-    }
-  
-    }
-    
+      document.querySelector('#false').classList.remove('hidden')
+      };
 
+      const q1WrontAnswer2=document.getElementById("1B");
+      //question one wrong answer
+      q1WrontAnswer2.onclick = () =>{
+      document.querySelector('#question1').classList.toggle('hidden');
+      document.querySelector('#question2').classList.remove('hidden');
+      document.querySelector('#false').classList.remove('hidden')
+      };
+
+      const q1WrontAnswer3=document.getElementById("1D");
+      //question one wrong answer
+      q1WrontAnswer3.onclick = () =>{
+      document.querySelector('#question1').classList.toggle('hidden');
+      document.querySelector('#question2').classList.remove('hidden');
+      document.querySelector('#false').classList.remove('hidden')
+      }
+  
+    
