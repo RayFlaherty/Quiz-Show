@@ -14,11 +14,19 @@ h3 {
 }
 /*question display*/
 .question{
+    
     text-align: center;
     color: blue;
+
 }
 /*hide text*/
 .hidden{
     display: none;
 }
 
+.answer {
+    color: grey;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

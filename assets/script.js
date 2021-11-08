@@ -20,8 +20,9 @@ const startbtn=document.querySelector("#start");
   const q1RightAnswer=document.getElementById("1C");
     //question one right answer
     q1RightAnswer.onclick = () =>{ 
-      document.querySelector('question1').classList.toggle('hidden')
-      document.querySelector('question2').classList.toggle('show')
+      document.querySelector('#question1').classList.toggle('hidden');
+      document.querySelector('#question2').classList.remove('hidden');
+      document.getElementById('true').classList.toggle('hidden')
     }
   
     }
