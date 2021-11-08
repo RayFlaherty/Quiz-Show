@@ -1,10 +1,7 @@
-//var instructionsEl =document.querySelector ("#start-menu")
-//var question1El = document.querySelector("#question1");
-//var wrongAnswerQ1= document.querySelector ("#1A","#1B","1D");
 
-const buttonEl=document.querySelector("#start");
+const startbtn=document.querySelector("#start");
     // ON CLICK TIMER START
-    buttonEl.onclick = () =>{
+    startbtn.onclick = () =>{
       var timeleft = 60;
   var downloadTimer = setInterval(function(){
     if(timeleft <= 0){
@@ -17,15 +14,16 @@ const buttonEl=document.querySelector("#start");
   }, 1000);
     //ON CLICK DISPLAY REPLACE INSTRUCTION WITH QUESTION ONE
     document.querySelector('#question1').classList.remove('hidden');
-    document.getElementById('#instructions').classList.remove('start-menu')
+    
+    document.querySelector('#start-menu').classList.toggle('hidden');
+    
+  const q1RightAnswer=document.getElementById("1C");
+    //question one right answer
+    q1RightAnswer.onclick = () =>{ 
+      document.querySelector('question1').classList.toggle('hidden')
+      document.querySelector('question2').classList.toggle('show')
     }
-
-
   
-    
-    var question1El
-
-    
-
+    }
     
 

@@ -1,26 +1,24 @@
-h2 {
-    size: 20 px;
-    text-align: center;
-
+/*clock display*/
+h3 {
+    text-align: right;
 }
 
-.show{
-    display: block;
-}
+/*start menu design*/
 .start-menu{
-    
     text-align: center;
     color: red;
 }
-
+/*display text*/
+.show{
+    display: block;
+}
+/*question display*/
 .question{
     text-align: center;
     color: blue;
 }
+/*hide text*/
 .hidden{
     display: none;
 }
 
-h3 {
-    text-align: right;
-}
